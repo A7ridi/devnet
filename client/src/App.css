@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
+  --primary-color: #0077b5;
+  --dark-color: rgb(241, 238, 74);
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
@@ -176,7 +176,7 @@ img {
 .bg-dark,
 .badge-dark,
 .alert-dark {
-  background: var(--dark-color);
+  background: var(--primary-color);
   color: #fff;
 }
 
@@ -324,7 +324,6 @@ button {
 }
 
 .navbar a:hover {
-  /* color: var(--primary-color); */
   color: var(--dark-color);
 }
 
@@ -392,7 +391,8 @@ button {
 }
 
 .profile-top .icons a:hover {
-  color: var(--dark-color);
+  /* color: var(--dark-color); */
+  color: rgb(241, 238, 74);
 }
 
 .profile-about {
